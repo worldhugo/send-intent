@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.OpenableColumns;
+import android.os.Bundle;
 
 import com.getcapacitor.JSArray;
 import com.getcapacitor.JSObject;
@@ -45,6 +46,10 @@ public class SendIntent extends Plugin {
         } else {
             call.reject("No processing needed");
         }
+        intent.replaceExtras(new Bundle());
+        intent.setAction("");
+        intent.setData(null);
+        intent.setFlags(0);
     }
 
     @PluginMethod
