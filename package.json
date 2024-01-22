@@ -44,10 +44,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/carsten-klaffke/send-intent.git"
+    "url": "https://github.com/worldhugo/send-intent.git"
   },
   "bugs": {
-    "url": "https://github.com/carsten-klaffke/send-intent.git/issues"
+    "url": "https://github.com/worldhugo/send-intent.git/issues"
   },
   "homepage": "https://carsten-klaffke.de"
 }
